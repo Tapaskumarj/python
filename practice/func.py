@@ -21,3 +21,13 @@ def add(a,b):
 a=add(10,20)
 print(a)
 '''
+'''
+def rec(n):
+    if n==0:
+        return 0
+    else:
+        res=n+rec(n-1)
+    return res
+    
+print(rec(10))
+'''
