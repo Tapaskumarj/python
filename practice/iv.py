@@ -1,12 +1,5 @@
-class duck:
-    def walk(self):
-        print('duck class')
-        
-class dog:
-    def walk(self):
-        print('dog class')
-        
-def show(obj):
-    obj.walk()
-d=duck()
-show(d)
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+l=zip(keys,values)
+d=dict(l)
+print(d)
