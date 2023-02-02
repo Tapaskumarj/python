@@ -31,3 +31,15 @@ def rec(n):
     
 print(rec(10))
 '''
+class duck:
+    def show(self):
+        print('duck class')
+class dog:
+    def show(self):
+        print("dog class")
+        
+def myfunc(obj):
+    obj.show()
+list=[dog(),duck()]
+for i in list:
+    myfunc(i)
